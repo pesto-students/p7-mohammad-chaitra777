@@ -1,0 +1,157 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  position: static;
+  height: 100%;
+  width: 100%;
+}
+.sidebar {
+  position: fixed;
+  width: 70px;
+  height: 100%;
+  background-color: #d3d3d3;
+  padding: 30px 0;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+  padding: 5px;
+  align-items: center;
+}
+
+.sidebar ul li .las {
+  width: 25px;
+  margin-left: -17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul li .lab {
+    width: 25px;
+    margin-left: -17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+.main {
+  background-color: #404040;
+  height: 200px;
+  margin-left: 70px;
+  width: 100%;
+}
+.main .header {
+  height: 200px;
+}
+.h1 {
+  color: #ffffff;
+  font-size: x-large;
+  margin-left: 252px;
+  position: relative;
+  margin-top: -151px;
+}
+.h2 {
+  color: #ffffff;
+  font-size: small;
+  margin-left: 252px;
+  position: relative;
+  margin-top: 12px;
+}
+.h3 {
+  color: #ffffff;
+  font-size: small;
+  margin-left: 252px;
+  position: relative;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  margin-top: 24px;
+  margin-left: 30px;
+}
+.options ul {
+  width: 200px;
+  margin-left: 207px;
+  margin-top: 59px;
+}
+.options ul li {
+  color: #ffffff;
+  list-style-type: none;
+  padding: 5px;
+  display: inline-block;
+  font-size: small;
+  font-family: "Lato";
+}
+table {
+  margin-top: 40px;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  margin-left: 18px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  margin-left: 3px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+td:nth-child(4) {
+  color: #0000ff;
+}
+
+.wrapper .footer {
+  background-color: #0000ff;
+  height: 100px;
+  margin-left: 1px;
+  margin-top: 320px;
+  width: 100%;
+  position: static;
+}
+.wrapper .footer img {
+  height: 70px;
+  width: 70px;
+  margin-top: 18px;
+  margin-left: 15px;
+}
+.wrapper .footer .h1 {
+  color: #ffffff;
+  font-size: small;
+  position: relative;
+  margin-top: -73px;
+  margin-left: 92px;
+}
+.wrapper .footer .h2 {
+  color: #ffffff;
+  font-size: small;
+  position: relative;
+  margin-top: 8px;
+  margin-left: 92px;
+}
+
+.wrapper .footer .options ul {
+  width: 100%;
+  margin-left: 232px;
+  margin-top: -42px;
+}
+.wrapper .footer .options ul li {
+  color: #ffffff;
+  list-style-type: none;
+  padding: 5px;
+  display: inline-block;
+  font-size: small;
+  font-family: "Lato";
+  width: 192px;
+}
+.wrapper .footer .options ul li .las {
+  width: 25px;
+  margin-left: -17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
