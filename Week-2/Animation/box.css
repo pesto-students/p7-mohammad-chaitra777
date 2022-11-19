@@ -1,0 +1,74 @@
+.main{
+    height:200px;
+    width:200px;
+    display:flex;
+    flex-flow: column wrap;
+    margin:0 auto;
+}
+
+.red,
+.blue,
+.yellow,
+.green{
+    height:100px;
+    width:100px;
+    transition:transform 1s ease-in-out;
+
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+
+.text{
+    font-size:2em;
+    position:absolute;
+    top:58px;
+    right:694px;
+    z-index:-1;
+}
+
+.main:hover .red{
+    transform:rotateZ(90deg);
+    transform-origin: top left;
+}
+.main:not(:hover) .red{
+    transform:rotateZ(0deg);
+    transform-origin: top left;
+}
+
+.main:hover .yellow{
+    transform:rotateZ(-90deg);
+    transform-origin: top right;
+}
+.main:not(:hover) .yellow{
+    transform:rotateZ(0deg);
+    transform-origin: top right;
+}
+.main:hover .blue{
+    transform:rotateZ(-90deg);
+    transform-origin: bottom left;
+}
+.main:not(:hover) .blue{
+    transform:rotateZ(0deg);
+    transform-origin: bottom left;
+}
+.main:hover .green{
+    transform:rotateZ(90deg);
+    transform-origin: bottom right;
+}
+.main:not(:hover) .green{
+    transform:rotateZ(0deg);
+    transform-origin: bottom right;
+}
