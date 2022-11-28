@@ -1,0 +1,170 @@
+
+*{
+    margin:0px;
+    padding:0;
+    box-sizing:border-box;
+    font-size:15px;
+    font-family: "Lato", sans-serif;
+
+  }
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:200px 200px;
+    width: 800px;
+    margin-left:230px;
+    justify-content: space-evenly;
+    align-content: space-between;
+    grid-row-gap: 20px;
+    margin-top:100px;
+}
+
+  header{
+    margin-top: 80px;
+    margin-left: 434px;
+    font-size: 33px;
+  }
+  
+  .grid-item {
+   
+    padding:20px;
+    font-weight: 100;
+    color:gray
+
+  }
+
+  img {
+   
+    padding:20px;
+    font-weight: 100;
+    margin-top:-284px;
+  }
+  
+  .box1{
+
+   
+    grid-row:1/2;
+    grid-column-end: 1/1;
+    
+    
+  }
+  .box2{
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top:-57px
+
+   
+    
+  }
+  .box3{
+  
+    grid-row: 2/4;
+    grid-column: 1/2;
+
+    
+  }
+  .src{
+
+    grid-row: 2/4;
+    grid-column: 1/2;
+    height:100px;
+    width:100px;
+
+
+    
+  }
+  .box4{
+
+    grid-row:1/2;
+    grid-column-end: 3;
+    
+  }
+  .box5{
+    grid-row:1/2;
+    grid-column-end: 3;
+
+  }
+  .box6{
+    
+    margin-top:-130px;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    header {
+
+        color:black;
+    }
+  }
+
+  form {
+    margin: 0 auto;
+    width: 800px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: rgb(179, 156, 179);
+    font-family: "Lato", sans-serif;
+
+  }
+  .formName{
+    font-size: 34px;
+    margin-left: 277px;
+    margin-bottom: 41px;
+  }
+
+  input{
+    padding:10px;
+    border-radius: 2px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    padding: 14px;
+  }
+  
+
+  .button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: 0.5em;
+  }
+  #checkbox{
+    width:263px;
+  }
+ .terms{
+    margin-left: 163px;
+    margin-top: -19px;
+ }
+ #submit{
+    margin-left: 254px;
+    width: 100px;
+
+ }
+ #submit:hover{
+    background-color: green;;
+ }
+.radio{
+    display:inline-block;
+    width:500px;
+  }
+  #mr{
+    width:20px;
+  }
+  #mrs{
+    width:20px;
+
+  }
+  #ms{
+    width:20px;
+
+  }
+
+  .title{
+    width:62px;
+  }

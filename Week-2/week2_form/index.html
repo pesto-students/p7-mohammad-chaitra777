@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta>
+    <link rel="stylesheet" href="style.css">   
+    <meta name="viewport" content="width-device-width,initial-scale=1.0"></meta>
+ <head>
+</head>
+<body>
+    <header>Lorem Ipsum dolor sit amet</header>
+
+<div class=" wrapper">
+    <div class="grid-item box1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+    <div class="grid-item box2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+    <img src="https://uploads.codesandbox.io/uploads/user/a8233562-b36b-483d-9de9-5a1ac148fb0c/2Eq--cattyboard.jpg"  alt ="logo"/>
+    <div class="grid-item box4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+    <!-- <div class="grid-item box5">Hi</div> -->
+    <div class="grid-item box6"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+    
+-
+
+
+
+</div>
+<form id="register" method="post">
+    <div class="formName">Registration</div>
+    <label>Title:</label>
+    <div class="radio">
+        <label class="title">Mr.
+            <input type="radio" id="mr" name="mr" value="mr">
+        </label>
+
+    <label class="title">Ms.
+        <input type="radio" id="ms" name="ms" value="ms">
+
+    </label>
+    <label class="title">Mrs.
+        <input type="radio" id="mrs" name="mrs" value="mrs">
+
+    </label>
+    
+</div>
+    <label>First Name:</label>
+    <input type="text" name="fname" id="name" placeholder="Enter your first name" required><br><br>
+    <label>Last Name:</label>
+    <input type="text" name="lname" id="name" placeholder="Enter your last name" required><br><br>
+    <label>Mail ID:</label>
+    <input type="email" name="email" id="email" placeholder="Enter your mail id" required><br><br>
+    <label for="phone">Enter a phone number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd" minlength="8" required><br><br>
+    <label for="pwd">Confirm Password:</label>
+    <input type="password" id="confpwd" name="confpwd" minlength="8" required> <br><br>
+    <label for="countries">Country:</label>
+    <select name="countries" id="countries">
+      <option value="canada">Canada</option>
+      <option value="india">India</option>
+      <option value="malaysia">Malaysia</option>
+      <option value="usa">USA</option>
+    </select><br><br>
+    <input id="checkbox" type="checkbox" />
+    <div class ="terms" for="checkbox" required>I agree to these <a href="#">Terms and Conditions</a>. </div><br><br>
+    <input id="submit" type="submit">
+
+
+
+
+  </form>
+
+</body>
+</html>
